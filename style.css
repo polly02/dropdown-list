@@ -11,12 +11,24 @@
 }
 
 .btn{
-    width: 264px;
-    padding: 20px 0 20px 16px;
+    width: 248px;
+    padding: 20px 16px 20px 16px;
     background: #FFFFFF;
     box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img{
+    background-image: url(./assets/Chevron.svg);
+    background-size: contain;
+    width: 10px;
+    height: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-repeat: no-repeat;
 }
 
 .city {
